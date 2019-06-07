@@ -3,7 +3,7 @@ let rawData = [];
 const randomArray = (length, max, min) => [...new Array(length)].map(() => Math.floor(Math.random() * (max - min + 1)) + min);
 
 rawData = randomArray(20, 10, 0);
-console.log(rawData)
+
 rawData.sort((a, b) => a - b);
 
 rawData.reverse();
